@@ -26,7 +26,7 @@ BiteSearch adalah aplikasi web yang memudahkan pengguna untuk mencari berbagai r
 git clone https://github.com/ramdhini/BiteSearch.git
 
 # Masuk ke folder
-cd BiteSearcg
+cd BiteSearch
 
 # Install dependencies
 npm install
