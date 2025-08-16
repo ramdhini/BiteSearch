@@ -41,7 +41,7 @@ export default function Detail() {
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-500 mx-auto mb-4"></div>
-          <p className="text-orange-600 font-medium">Memuat detail resep...</p>
+          <p className="text-orange-600 font-medium">Loading recipe details...</p>
         </div>
       </div>
     );
@@ -54,14 +54,14 @@ export default function Detail() {
           <div className="bg-orange-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
             <ChefHat className="w-10 h-10 text-orange-500" />
           </div>
-          <h3 className="text-xl font-semibold text-gray-700 mb-2">Resep tidak ditemukan</h3>
-          <p className="text-gray-500 mb-6">Maaf, resep yang Anda cari tidak tersedia.</p>
+          <h3 className="text-xl font-semibold text-gray-700 mb-2">Recipe not found</h3>
+          <p className="text-gray-500 mb-6">Sorry, the recipe you are looking for is not available.</p>
           <Link
             to="/"
             className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-medium transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
-            Kembali ke Beranda
+            Back to Home
           </Link>
         </div>
       </div>
@@ -80,7 +80,7 @@ export default function Detail() {
             className="inline-flex items-center gap-2 text-orange-600 hover:text-orange-700 font-medium transition-colors"
           >
             <ArrowLeft className="w-5 h-5 text-left" />
-            Kembali ke Beranda
+            Back to Home
           </Link>
         </div>
       </div>
