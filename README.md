@@ -2,7 +2,7 @@
 
 BiteSearch adalah aplikasi web yang memudahkan pengguna untuk mencari berbagai resep masakan dari seluruh dunia. Dengan integrasi API dari [TheMealDB](https://www.themealdb.com/), pengguna dapat menemukan resep lengkap, bahan-bahan, hingga instruksi memasak dengan mudah dan cepat.
 
-![image alt](https://github.com/ramdhini/BiteSearch/blob/eab569decfc86c44f667f8a9c66ad34cf5f7306b/Mockup.png)
+![image alt](https://github.com/ramdhini/BiteSearch/blob/0e252a560050800b43d1fc53b4774ef7aacd329a/bitesearch-mock.png)
 
 ---
 
